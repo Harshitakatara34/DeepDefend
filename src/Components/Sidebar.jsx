@@ -9,7 +9,7 @@ import { GrSettingsOption } from "react-icons/gr";
 export const Sidebar = () => {
   return (
     <>
-        <Stack backgroundColor={"#060613"} align={'start'} spacing={4} width={"16vw"} height={"90vh"} cursor={"pointer"} direction={"column"}>
+        <Stack backgroundColor={"#060613"} align={'start'} spacing={4} width={"16vw"} height={"auto"} cursor={"pointer"} direction={"column"}>
             <VStack align={"start"}>
                 <Accordion backgroundColor={"black"} width={"16vw"} defaultIndex={[0]} allowMultiple>
                     <AccordionItem>
