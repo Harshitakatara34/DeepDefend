@@ -127,7 +127,7 @@ const EndBoard = () => {
 
       <div
         className="image-container"
-        style={{ width: "90%", height: "250px" }}
+        style={{ width: "90%", height: "600px" }}
       >
         <div className="image-wrapper">
         <div
