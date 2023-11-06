@@ -3,6 +3,7 @@ import React from "react";
 import EndBoard from "./EndBoard";
 import MidBoard from "./MidBoard";
 import { Sidebar } from "./Sidebar";
+
 const DashBoard = () => {
   return (
 
@@ -19,7 +20,7 @@ const DashBoard = () => {
     >
     <Sidebar/>
 
-      <Divider width={"2px"} />
+    
       <div style={{ width: "100%", height: "auto",  background:  "#100F10"}} >
       
        

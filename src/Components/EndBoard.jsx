@@ -24,8 +24,14 @@ import ClearOutlinedIcon from "@mui/icons-material/ClearOutlined";
 const EndBoard = () => {
   return (
     <div>
+    <Stack>
+    <HStack marginLeft={"5px"} height={"5vh"} gap={20} width={"100%"}>
+    <Button backgroundColor={"gray"} color={"white"} height={"5vh"} fontWeight={"semibold"} borderRadius={"5px"}>Horizontal View</Button>
+    <Button backgroundColor={"Blue"} color={"white"} height={"5vh"} fontWeight={"semibold"} borderRadius={"5px"}>Enriched View</Button>
+    </HStack>
+    </Stack>
       <Stack>
-        <HStack marginLeft={"5px"} height={"1vh"} gap={5} width={"100%"}>
+        <HStack marginLeft={"5px"} height={"10vh"} gap={5} width={"100%"}>
           <Text
             fontSize={"sm"}
             color={"gray"}
@@ -127,10 +133,10 @@ const EndBoard = () => {
 
       <div
         className="image-container"
-        style={{ width: "90%", height: "600px" }}
+        style={{ width: "90%", height: "400px" }}
       >
         <div className="image-wrapper">
-        <div
+          <div
             className="image"
             style={{
               width: "80%",
@@ -149,14 +155,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -169,7 +200,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -223,14 +254,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -243,7 +299,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -297,14 +353,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -317,7 +398,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -371,14 +452,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -391,7 +497,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -445,14 +551,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -465,7 +596,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -519,14 +650,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -539,7 +695,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -593,14 +749,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -613,7 +794,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -667,14 +848,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -687,7 +893,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -741,14 +947,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -761,7 +992,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -815,14 +1046,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -835,7 +1091,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -889,14 +1145,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -909,7 +1190,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -963,14 +1244,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -983,7 +1289,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1037,14 +1343,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1057,7 +1388,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1111,7 +1442,7 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
+              <heading style={{ color: "black" }}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
@@ -1131,7 +1462,314 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
+              </div>
+            </div>
+            <div
+              style={{
+                width: "106%",
+                height: "40px",
+                backgroundColor: "#010001",
+                display: "flex",
+                justifyContent: "space-between",
+              }}
+            >
+              <div style={{ marginTop: "10px" }}>
+                <CloudOutlinedIcon style={{ color: "white" }} />
+                <ClearOutlinedIcon
+                  style={{ color: "white", marginLeft: "10px" }}
+                />
+              </div>
+              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "20px",
+                    borderRadius: "50%",
+                    backgroundColor: "red",
+                    margin: "auto",
+                    color: "white",
+                    textAlign: "center",
+                  }}
+                >
+                  60
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="image"
+            style={{
+              width: "80%",
+              height: "100px",
+              margin: "auto",
+              marginTop: "25px",
+            }}
+          >
+            <div
+              className="image"
+              style={{
+                width: "80%",
+                height: "100px",
+                margin: "auto",
+                marginTop: "25px",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  width: "100%",
+                  height: "50px",
+                  paddingRight: "20px",
+                  backgroundColor: "#121115",
+                }}
+              >
+                <div
+                  style={{
+                    backgroundColor: "white",
+                    height: "80%",
+                    width: "55px",
+                  }}
+                >
+                  {" "}
+                  <Heading
+                    style={{
+                      color: "black",
+                      objectFit: "cover",
+                      fontSize: "10px",
+                    }}
+                  >
+                    Qualyze
+                  </Heading>
+                </div>
+                <div>
+                  <Heading style={{ color: "white", fontSize: "15px" }}>
+                    Microsoft Defender App
+                  </Heading>
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      color: "white",
+                      paddingLeft: "0px",
+                    }}
+                  >
+                    Local
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    height: "30px",
+                    width: "30px",
+                    border: "3px dotted  yellow",
+                    textAlign: "Center",
+                    marginTop: "10px",
+                    borderSpacing: "20px",
+                    borderRadius: "50%",
+                    color: "white",
+                  }}
+                >
+                  <heading style={{ color: "white" }}>60</heading>
+                </div>
+              </div>
+              <div
+                style={{
+                  width: "106%",
+                  height: "40px",
+                  backgroundColor: "#010001",
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div style={{ marginTop: "10px" }}>
+                  <CloudOutlinedIcon style={{ color: "white" }} />
+                  <ClearOutlinedIcon
+                    style={{ color: "white", marginLeft: "10px" }}
+                  />
+                </div>
+                <div style={{ marginTop: "10px", paddingRight: "10px" }}>
+                  <div
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      borderRadius: "50%",
+                      backgroundColor: "red",
+                      margin: "auto",
+                      color: "white",
+                      textAlign: "center",
+                    }}
+                  >
+                    60
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="image"
+              style={{
+                width: "80%",
+                height: "100px",
+                margin: "auto",
+                marginTop: "25px",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  width: "100%",
+                  height: "50px",
+                  paddingRight: "20px",
+                  backgroundColor: "#121115",
+                }}
+              >
+                <div
+                  style={{
+                    backgroundColor: "white",
+                    height: "80%",
+                    width: "55px",
+                  }}
+                >
+                  {" "}
+                  <Heading
+                    style={{
+                      color: "black",
+                      objectFit: "cover",
+                      fontSize: "10px",
+                    }}
+                  >
+                    Qualyze
+                  </Heading>
+                </div>
+                <div>
+                  <Heading style={{ color: "white", fontSize: "15px" }}>
+                    Microsoft Defender App
+                  </Heading>
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      color: "white",
+                      paddingLeft: "0px",
+                    }}
+                  >
+                    Local
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    height: "30px",
+                    width: "30px",
+                    border: "3px dotted  yellow",
+                    textAlign: "Center",
+                    marginTop: "10px",
+                    borderSpacing: "20px",
+                    borderRadius: "50%",
+                    color: "white",
+                  }}
+                >
+                  <heading style={{ color: "white" }}>60</heading>
+                </div>
+              </div>
+              <div
+                style={{
+                  width: "106%",
+                  height: "40px",
+                  backgroundColor: "#010001",
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div style={{ marginTop: "10px" }}>
+                  <CloudOutlinedIcon style={{ color: "white" }} />
+                  <ClearOutlinedIcon
+                    style={{ color: "white", marginLeft: "10px" }}
+                  />
+                </div>
+                <div style={{ marginTop: "10px", paddingRight: "10px" }}>
+                  <div
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      borderRadius: "50%",
+                      backgroundColor: "red",
+                      margin: "auto",
+                      color: "white",
+                      textAlign: "center",
+                    }}
+                  >
+                    60
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="image"
+            style={{
+              width: "80%",
+              height: "100px",
+              margin: "auto",
+              marginTop: "25px",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                width: "100%",
+                height: "50px",
+                paddingRight: "20px",
+                backgroundColor: "#121115",
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: "white",
+                  height: "80%",
+                  width: "55px",
+                }}
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
+              <div
+                style={{
+                  height: "30px",
+                  width: "30px",
+                  border: "3px dotted  yellow",
+                  textAlign: "Center",
+                  marginTop: "10px",
+                  borderSpacing: "20px",
+                  borderRadius: "50%",
+                  color: "white",
+                }}
+              >
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1185,14 +1823,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1205,7 +1868,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1259,14 +1922,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1279,7 +1967,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1333,14 +2021,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1353,7 +2066,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1407,14 +2120,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1427,7 +2165,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1481,14 +2219,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1501,7 +2264,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1555,14 +2318,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1575,7 +2363,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1629,162 +2417,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
-                }}
-              ></div>
-              <div
-                style={{
-                  height: "30px",
-                  width: "30px",
-                  border: "3px dotted  yellow",
-                  textAlign: "Center",
-                  marginTop: "10px",
-                  borderSpacing: "20px",
-                  borderRadius: "50%",
-                  color: "white",
+                  width: "55px",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
-              </div>
-            </div>
-            <div
-              style={{
-                width: "106%",
-                height: "40px",
-                backgroundColor: "#010001",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
-              <div style={{ marginTop: "10px" }}>
-                <CloudOutlinedIcon style={{ color: "white" }} />
-                <ClearOutlinedIcon
-                  style={{ color: "white", marginLeft: "10px" }}
-                />
-              </div>
-              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
-                <div
+                {" "}
+                <Heading
                   style={{
-                    height: "20px",
-                    width: "20px",
-                    borderRadius: "50%",
-                    backgroundColor: "red",
-                    margin: "auto",
-                    color: "white",
-                    textAlign: "center",
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
                   }}
                 >
-                  60
-                </div>
+                  Qualyze
+                </Heading>
               </div>
-            </div>
-          </div>
-          <div
-            className="image"
-            style={{
-              width: "80%",
-              height: "100px",
-              margin: "auto",
-              marginTop: "25px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                width: "100%",
-                height: "50px",
-                paddingRight: "20px",
-                backgroundColor: "#121115",
-              }}
-            >
-            <heading style={{color:"black"}}>Qualyze</heading>
-              <div
-                style={{
-                  backgroundColor: "white",
-                  height: "80%",
-                  width: "50px",
-                }}
-              ></div>
-              <div
-                style={{
-                  height: "30px",
-                  width: "30px",
-                  border: "3px dotted  yellow",
-                  textAlign: "Center",
-                  marginTop: "10px",
-                  borderSpacing: "20px",
-                  borderRadius: "50%",
-                  color: "white",
-                }}
-              >
-                <heading style={{color:"white"}}>60</heading>
-              </div>
-            </div>
-            <div
-              style={{
-                width: "106%",
-                height: "40px",
-                backgroundColor: "#010001",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
-              <div style={{ marginTop: "10px" }}>
-                <CloudOutlinedIcon style={{ color: "white" }} />
-                <ClearOutlinedIcon
-                  style={{ color: "white", marginLeft: "10px" }}
-                />
-              </div>
-              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
-                <div
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
                   style={{
-                    height: "20px",
-                    width: "20px",
-                    borderRadius: "50%",
-                    backgroundColor: "red",
-                    margin: "auto",
+                    fontSize: "12px",
                     color: "white",
-                    textAlign: "center",
+                    paddingLeft: "0px",
                   }}
                 >
-                  60
-                </div>
+                  Local
+                </p>
               </div>
-            </div>
-          </div>
-          <div
-            className="image"
-            style={{
-              width: "80%",
-              height: "100px",
-              margin: "auto",
-              marginTop: "25px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                width: "100%",
-                height: "50px",
-                paddingRight: "20px",
-                backgroundColor: "#121115",
-              }}
-            >
-            <heading style={{color:"black"}}>Qualyze</heading>
-              <div
-                style={{
-                  backgroundColor: "white",
-                  height: "80%",
-                  width: "50px",
-                }}
-              ></div>
+
               <div
                 style={{
                   height: "30px",
@@ -1797,7 +2462,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -1852,97 +2517,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
-                }}
-              ></div>
-              <div
-                style={{
-                  height: "30px",
-                  width: "30px",
-                  border: "3px dotted  yellow",
-                  textAlign: "Center",
-                  marginTop: "10px",
-                  borderSpacing: "20px",
-                  borderRadius: "50%",
-                  color: "white",
+                  width: "55px",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
-              </div>
-            </div>
-            <div
-              style={{
-                width: "106%",
-                height: "40px",
-                backgroundColor: "#010001",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
-              <div style={{ marginTop: "10px" }}>
-                <CloudOutlinedIcon style={{ color: "white" }} />
-                <ClearOutlinedIcon
-                  style={{ color: "white", marginLeft: "10px" }}
-                />
-              </div>
-              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
-                <div
+                {" "}
+                <Heading
                   style={{
-                    height: "20px",
-                    width: "20px",
-                    borderRadius: "50%",
-                    backgroundColor: "red",
-                    margin: "auto",
-                    color: "white",
-                    textAlign: "center",
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
                   }}
                 >
-                  60
-                </div>
+                  Qualyze
+                </Heading>
               </div>
-            </div>
-          </div>
-          <div
-            className="image"
-            style={{
-              width: "80%",
-              height: "100px",
-              margin: "auto",
-              marginTop: "25px",
-            }}
-          >
-           <div
-            className="image"
-            style={{
-              width: "80%",
-              height: "100px",
-              margin: "auto",
-              marginTop: "25px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                width: "100%",
-                height: "50px",
-                paddingRight: "20px",
-                backgroundColor: "#121115",
-              }}
-            >
-            <heading style={{color:"black"}}>Qualyze</heading>
-              <div
-                style={{
-                  backgroundColor: "white",
-                  height: "80%",
-                  width: "50px",
-                }}
-              ></div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -1955,7 +2562,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2000,212 +2607,200 @@ const EndBoard = () => {
             }}
           >
             <div
+              className="image"
               style={{
-                display: "flex",
-                justifyContent: "space-between",
-                width: "100%",
-                height: "50px",
-                paddingRight: "20px",
-                backgroundColor: "#121115",
+                width: "80%",
+                height: "100px",
+                margin: "auto",
+                marginTop: "25px",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
-                  backgroundColor: "white",
-                  height: "80%",
-                  width: "50px",
-                }}
-              ></div>
-              <div
-                style={{
-                  height: "30px",
-                  width: "30px",
-                  border: "3px dotted  yellow",
-                  textAlign: "Center",
-                  marginTop: "10px",
-                  borderSpacing: "20px",
-                  borderRadius: "50%",
-                  color: "white",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  width: "100%",
+                  height: "50px",
+                  paddingRight: "20px",
+                  backgroundColor: "#121115",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
-              </div>
-            </div>
-            <div
-              style={{
-                width: "106%",
-                height: "40px",
-                backgroundColor: "#010001",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
-              <div style={{ marginTop: "10px" }}>
-                <CloudOutlinedIcon style={{ color: "white" }} />
-                <ClearOutlinedIcon
-                  style={{ color: "white", marginLeft: "10px" }}
-                />
-              </div>
-              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
                 <div
                   style={{
-                    height: "20px",
-                    width: "20px",
-                    borderRadius: "50%",
-                    backgroundColor: "red",
-                    margin: "auto",
-                    color: "white",
-                    textAlign: "center",
+                    backgroundColor: "white",
+                    height: "80%",
+                    width: "55px",
                   }}
                 >
-                  60
+                  {" "}
+                  <Heading
+                    style={{
+                      color: "black",
+                      objectFit: "cover",
+                      fontSize: "10px",
+                    }}
+                  >
+                    Qualyze
+                  </Heading>
+                </div>
+                <div>
+                  <Heading style={{ color: "white", fontSize: "15px" }}>
+                    Microsoft Defender App
+                  </Heading>
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      color: "white",
+                      paddingLeft: "0px",
+                    }}
+                  >
+                    Local
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    height: "30px",
+                    width: "30px",
+                    border: "3px dotted  yellow",
+                    textAlign: "Center",
+                    marginTop: "10px",
+                    borderSpacing: "20px",
+                    borderRadius: "50%",
+                    color: "white",
+                  }}
+                >
+                  <heading style={{ color: "white" }}>60</heading>
+                </div>
+              </div>
+              <div
+                style={{
+                  width: "106%",
+                  height: "40px",
+                  backgroundColor: "#010001",
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div style={{ marginTop: "10px" }}>
+                  <CloudOutlinedIcon style={{ color: "white" }} />
+                  <ClearOutlinedIcon
+                    style={{ color: "white", marginLeft: "10px" }}
+                  />
+                </div>
+                <div style={{ marginTop: "10px", paddingRight: "10px" }}>
+                  <div
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      borderRadius: "50%",
+                      backgroundColor: "red",
+                      margin: "auto",
+                      color: "white",
+                      textAlign: "center",
+                    }}
+                  >
+                    60
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          </div>
-          <div
-            className="image"
-            style={{
-              width: "80%",
-              height: "100px",
-              margin: "auto",
-              marginTop: "25px",
-            }}
-          >
             <div
+              className="image"
               style={{
-                display: "flex",
-                justifyContent: "space-between",
-                width: "100%",
-                height: "50px",
-                paddingRight: "20px",
-                backgroundColor: "#121115",
+                width: "80%",
+                height: "100px",
+                margin: "auto",
+                marginTop: "25px",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
-                  backgroundColor: "white",
-                  height: "80%",
-                  width: "50px",
-                }}
-              ></div>
-              <div
-                style={{
-                  height: "30px",
-                  width: "30px",
-                  border: "3px dotted  yellow",
-                  textAlign: "Center",
-                  marginTop: "10px",
-                  borderSpacing: "20px",
-                  borderRadius: "50%",
-                  color: "white",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  width: "100%",
+                  height: "50px",
+                  paddingRight: "20px",
+                  backgroundColor: "#121115",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
-              </div>
-            </div>
-            <div
-              style={{
-                width: "106%",
-                height: "40px",
-                backgroundColor: "#010001",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
-              <div style={{ marginTop: "10px" }}>
-                <CloudOutlinedIcon style={{ color: "white" }} />
-                <ClearOutlinedIcon
-                  style={{ color: "white", marginLeft: "10px" }}
-                />
-              </div>
-              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
                 <div
                   style={{
-                    height: "20px",
-                    width: "20px",
-                    borderRadius: "50%",
-                    backgroundColor: "red",
-                    margin: "auto",
-                    color: "white",
-                    textAlign: "center",
+                    backgroundColor: "white",
+                    height: "80%",
+                    width: "55px",
                   }}
                 >
-                  60
+                  {" "}
+                  <Heading
+                    style={{
+                      color: "black",
+                      objectFit: "cover",
+                      fontSize: "10px",
+                    }}
+                  >
+                    Qualyze
+                  </Heading>
+                </div>
+                <div>
+                  <Heading style={{ color: "white", fontSize: "15px" }}>
+                    Microsoft Defender App
+                  </Heading>
+                  <p
+                    style={{
+                      fontSize: "12px",
+                      color: "white",
+                      paddingLeft: "0px",
+                    }}
+                  >
+                    Local
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    height: "30px",
+                    width: "30px",
+                    border: "3px dotted  yellow",
+                    textAlign: "Center",
+                    marginTop: "10px",
+                    borderSpacing: "20px",
+                    borderRadius: "50%",
+                    color: "white",
+                  }}
+                >
+                  <heading style={{ color: "white" }}>60</heading>
                 </div>
               </div>
-            </div>
-          </div>
-          <div
-            className="image"
-            style={{
-              width: "80%",
-              height: "100px",
-              margin: "auto",
-              marginTop: "25px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                width: "100%",
-                height: "50px",
-                paddingRight: "20px",
-                backgroundColor: "#121115",
-              }}
-            >
               <div
                 style={{
-                  backgroundColor: "white",
-                  height: "80%",
-                  width: "50px",
+                  width: "106%",
+                  height: "40px",
+                  backgroundColor: "#010001",
+                  display: "flex",
+                  justifyContent: "space-between",
                 }}
-              ></div>
-              <div
-                style={{
-                  height: "30px",
-                  width: "30px",
-                  border: "3px dotted  yellow",
-                  textAlign: "Center",
-                  marginTop: "10px",
-                  borderSpacing: "20px",
-                  borderRadius: "50%",
-                  color: "white",
-                }}
-              ></div>
-            </div>
-            <div
-              style={{
-                width: "106%",
-                height: "40px",
-                backgroundColor: "#010001",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
-              <div style={{ marginTop: "10px" }}>
-                <CloudOutlinedIcon style={{ color: "white" }} />
-                <ClearOutlinedIcon
-                  style={{ color: "white", marginLeft: "10px" }}
-                />
-              </div>
-              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
-                <div
-                  style={{
-                    height: "20px",
-                    width: "20px",
-                    borderRadius: "50%",
-                    backgroundColor: "red",
-                    margin: "auto",
-                    color: "white",
-                    textAlign: "center",
-                  }}
-                >
-                  60
+              >
+                <div style={{ marginTop: "10px" }}>
+                  <CloudOutlinedIcon style={{ color: "white" }} />
+                  <ClearOutlinedIcon
+                    style={{ color: "white", marginLeft: "10px" }}
+                  />
+                </div>
+                <div style={{ marginTop: "10px", paddingRight: "10px" }}>
+                  <div
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      borderRadius: "50%",
+                      backgroundColor: "red",
+                      margin: "auto",
+                      color: "white",
+                      textAlign: "center",
+                    }}
+                  >
+                    60
+                  </div>
                 </div>
               </div>
             </div>
@@ -2229,14 +2824,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2249,7 +2869,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2303,14 +2923,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2323,7 +2968,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2377,14 +3022,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2397,7 +3067,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2451,14 +3121,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2471,7 +3166,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2525,14 +3220,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2545,7 +3265,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2599,14 +3319,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2619,7 +3364,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2673,14 +3418,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2693,7 +3463,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2747,14 +3517,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2767,7 +3562,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2821,14 +3616,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2841,7 +3661,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2895,14 +3715,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2915,7 +3760,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -2969,14 +3814,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -2989,7 +3859,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -3043,14 +3913,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -3063,7 +3958,7 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div
@@ -3117,14 +4012,39 @@ const EndBoard = () => {
                 backgroundColor: "#121115",
               }}
             >
-            <heading style={{color:"black"}}>Qualyze</heading>
               <div
                 style={{
                   backgroundColor: "white",
                   height: "80%",
-                  width: "50px",
+                  width: "55px",
                 }}
-              ></div>
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
               <div
                 style={{
                   height: "30px",
@@ -3137,7 +4057,205 @@ const EndBoard = () => {
                   color: "white",
                 }}
               >
-                <heading style={{color:"white"}}>60</heading>
+                <heading style={{ color: "white" }}>60</heading>
+              </div>
+            </div>
+            <div
+              style={{
+                width: "106%",
+                height: "40px",
+                backgroundColor: "#010001",
+                display: "flex",
+                justifyContent: "space-between",
+              }}
+            >
+              <div style={{ marginTop: "10px" }}>
+                <CloudOutlinedIcon style={{ color: "white" }} />
+                <ClearOutlinedIcon
+                  style={{ color: "white", marginLeft: "10px" }}
+                />
+              </div>
+              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "20px",
+                    borderRadius: "50%",
+                    backgroundColor: "red",
+                    margin: "auto",
+                    color: "white",
+                    textAlign: "center",
+                  }}
+                >
+                  60
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="image"
+            style={{
+              width: "80%",
+              height: "100px",
+              margin: "auto",
+              marginTop: "25px",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                width: "100%",
+                height: "50px",
+                paddingRight: "20px",
+                backgroundColor: "#121115",
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: "white",
+                  height: "80%",
+                  width: "55px",
+                }}
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
+              <div
+                style={{
+                  height: "30px",
+                  width: "30px",
+                  border: "3px dotted  yellow",
+                  textAlign: "Center",
+                  marginTop: "10px",
+                  borderSpacing: "20px",
+                  borderRadius: "50%",
+                  color: "white",
+                }}
+              >
+                <heading style={{ color: "white" }}>60</heading>
+              </div>
+            </div>
+            <div
+              style={{
+                width: "106%",
+                height: "40px",
+                backgroundColor: "#010001",
+                display: "flex",
+                justifyContent: "space-between",
+              }}
+            >
+              <div style={{ marginTop: "10px" }}>
+                <CloudOutlinedIcon style={{ color: "white" }} />
+                <ClearOutlinedIcon
+                  style={{ color: "white", marginLeft: "10px" }}
+                />
+              </div>
+              <div style={{ marginTop: "10px", paddingRight: "10px" }}>
+                <div
+                  style={{
+                    height: "20px",
+                    width: "20px",
+                    borderRadius: "50%",
+                    backgroundColor: "red",
+                    margin: "auto",
+                    color: "white",
+                    textAlign: "center",
+                  }}
+                >
+                  60
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="image"
+            style={{
+              width: "80%",
+              height: "100px",
+              margin: "auto",
+              marginTop: "25px",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                width: "100%",
+                height: "50px",
+                paddingRight: "20px",
+                backgroundColor: "#121115",
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: "white",
+                  height: "80%",
+                  width: "55px",
+                }}
+              >
+                {" "}
+                <Heading
+                  style={{
+                    color: "black",
+                    objectFit: "cover",
+                    fontSize: "10px",
+                  }}
+                >
+                  Qualyze
+                </Heading>
+              </div>
+              <div>
+                <Heading style={{ color: "white", fontSize: "15px" }}>
+                  Microsoft Defender App
+                </Heading>
+                <p
+                  style={{
+                    fontSize: "12px",
+                    color: "white",
+                    paddingLeft: "0px",
+                  }}
+                >
+                  Local
+                </p>
+              </div>
+
+              <div
+                style={{
+                  height: "30px",
+                  width: "30px",
+                  border: "3px dotted  yellow",
+                  textAlign: "Center",
+                  marginTop: "10px",
+                  borderSpacing: "20px",
+                  borderRadius: "50%",
+                  color: "white",
+                }}
+              >
+                <heading style={{ color: "white" }}>60</heading>
               </div>
             </div>
             <div

@@ -5,7 +5,7 @@
   }
   
   .image-wrapper {
-    animation: moveDownToTop 15s linear infinite; /* Adjust the animation duration as needed */
+    animation: moveDownToTop 13s linear infinite; 
   }
   
   @keyframes moveDownToTop {
